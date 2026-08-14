@@ -1,0 +1,9 @@
+# Files that never leave your machine.
+# Anything listed here gets skipped when claude saves your work to GitHub.
+
+# Your API keys live here. Never remove these lines.
+.env
+.env.*
+
+# Computer junk
+.DS_Store
