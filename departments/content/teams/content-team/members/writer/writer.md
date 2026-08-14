@@ -15,4 +15,4 @@ A piece of content that's ready to post, not a draft that needs another pass.
 Scheduling, posting, and anything outside writing the actual words.
 
 ## Before it writes anything
-Read `business.md`, `brand/icp.md`, and `brand/voice.md`. Every hire file in this repo starts with that same rule.
+Read the shared brain: `business.md` and everything in `brand/`. Every hire file in this repo starts with that same rule.
