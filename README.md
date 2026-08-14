@@ -10,7 +10,7 @@ Before touching anything, claude reads `business.md` and everything in `brand/` 
 
 ## The hierarchy, in five lines
 
-- The repo is the company. `business.md` and `brand/` are the shared brain everyone works from.
+- This repo is your whole marketing department. `business.md` and `brand/` are the shared brain everyone works from.
 - `departments/` are the divisions of the company, content, sales, whatever you build out.
 - Each department has `teams/`, groups of hires working the same problem.
 - Each team has `members/`, individual hires, one file each, one job each.
