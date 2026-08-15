@@ -32,6 +32,10 @@ These bind always, not just when someone remembers to ask:
 - Before any save that changed pages or wiring, run the code reviewer's review-changes. Before anything public ships, run the security checker.
 - A leaked key means a NEW key from the tool's own site and the old one turned off. Deleting the file is not the fix.
 
+## The program days
+
+When the owner names a program day ("I'm on day 1.4"), read that day's file in `program/` and run it exactly — the questions, the order, the filing map, the ending. The Skool classroom teaches the why; this repo carries the how. If no file exists for the day they name, say so plainly instead of improvising.
+
 ## Summoning a team
 
 When the owner says "summon my [team]" for a job, read that team's `team.md` first — pre-built teams carry Summon sections that name the order hires run in. Follow the choreography, planner first when one exists, and report at each hire's handoff in plain words.
