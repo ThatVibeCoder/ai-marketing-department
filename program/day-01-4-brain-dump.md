@@ -36,7 +36,7 @@ Then, in ANY later session that touches the business file, ask ONE open question
 
 ## The ending, always
 1. Read back the three most important things you heard, in one line each. Let them correct you.
-2. Update the org chart with their business name and open `org-chart.html` — tell them: that's your company now, teams waiting to be staffed. Have them take a screenshot; they'll want the before when day 30 comes.
+2. Set their business name in `org-chart.html`'s OWNER line (the one line marked yours to edit — never touch the generated data block below it), then open the chart — tell them: that's your company now, teams waiting to be staffed. Have them take a screenshot; they'll want the before when day 30 comes.
 3. Save the work to GitHub — run the github agent's save-work skill (departments/it-systems/dev-team/github-agent/skills/save-work/). Their business is now somewhere safer than one laptop.
 
 ## Done when
