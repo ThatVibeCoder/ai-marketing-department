@@ -8,7 +8,7 @@ description: Put a new API key somewhere safe and prove it works. Use whenever a
 A key is a password to a tool's door. This is the only way one gets stored.
 
 ## Steps
-1. The owner pastes the key in chat with claude, once. It goes straight into the `.env` file at the top of the repo — that exact name, dot-env, never keys.env or prod.env or anything creative — the file saving skips, so it never leaves this machine.
+1. The owner pastes the key in chat with claude, once. It goes straight into the `.env` file at the top of the repo — that exact name, dot-env, never keys.env or prod.env or anything creative — saving skips that file, so it doesn't ride along to GitHub.
 2. Prove the skip: check that the env file does not show up as something about to be saved. Show the owner that check in one line.
 3. Use the key for one small real thing immediately (its tool's simplest call) so "it works" is seen, not assumed.
 4. Tell the owner which hire now has this door open and what it'll be used for.
