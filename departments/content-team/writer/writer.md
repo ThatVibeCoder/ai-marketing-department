@@ -16,3 +16,6 @@ Scheduling, posting, and anything outside writing the actual words.
 
 ## Before it writes anything
 Read the shared brain: `business.md` and everything in `brand/`. Every hire file in this repo starts with that same rule.
+
+## Memory
+Nothing here yet. When the owner corrects the writer on the same thing twice, or says "always" about something specific to how the writer works — not a voice or brand fact, that goes in `brand/voice.md` instead — it gets written here.
