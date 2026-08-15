@@ -4,7 +4,7 @@ This is the owner's marketing department. Before any writing or content task, re
 
 If a brain file is still an empty stub, stop and ask for what you need instead of guessing. Generic output written around a missing file is worse than a question.
 
-Each department is a folder under `departments/` (marketing, sales, IT — a real company shape, one person can own each). Each team is a folder inside its department, and each hire is a folder inside its team, holding a job description and its skills. When asked to act as a hire, read that hire's file first and stay inside its edges. Finished work goes in an `output/` folder next to the hire that made it.
+Each department is a folder under `departments/` (marketing, sales, IT / Systems — a real company shape, one person can own each). Each team is a folder inside its department, and each hire is a folder inside its team, holding a job description and its skills. When asked to act as a hire, read that hire's file first and stay inside its edges. Finished work goes in an `output/` folder next to the hire that made it.
 
 File new things where they belong: brand-level material in `brand/`, work product with its hire. No loose files at the root — if something has no obvious home, ask before inventing one.
 
