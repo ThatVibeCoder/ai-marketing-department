@@ -34,7 +34,7 @@ These bind always, not just when someone remembers to ask:
 
 ## The program days
 
-When the owner names a program day ("I'm on day 1.4"), read that day's file in `program/` and run it exactly — the questions, the order, the filing map, the ending. The Skool classroom teaches the why; this repo carries the how. If no file exists for the day they name, say so plainly instead of improvising.
+When the owner names a program day ("I'm on day 1.4") — or describes a GOAL one of the days serves (the routing table in `program/README.md` maps both) — read that day's file in `program/` and run it exactly — the questions, the order, the filing map, the ending. The Skool classroom teaches the why; this repo carries the how. If no file exists for the day they name, say so plainly instead of improvising.
 
 ## Summoning a team
 

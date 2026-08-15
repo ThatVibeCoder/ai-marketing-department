@@ -13,6 +13,15 @@ When the owner tells claude what day they're on — "I'm on day 1.4" — claude 
 | day 5 (any page), my voice | day-05-your-voice.md |
 | day 6 (any page), contrarian take | day-06-contrarian-take.md |
 
+Members also arrive with GOALS instead of day numbers. Match those on meaning:
+| The owner wants... | Run this file |
+|---|---|
+| to talk in their business, get set up, "where do I start" | day-01-4-brain-dump.md |
+| to know who their best customers are, who to target, who buys | day-03-lock-your-icp.md |
+| to know what to post, how much to sell vs give | day-03-3-everyone-trap.md |
+| claude to sound like them, "that doesn't sound like me" | day-05-your-voice.md |
+| to stand out, what makes them different | day-06-contrarian-take.md |
+
 Match against this table first — a page number that isn't listed still belongs to its day's file. Only when a day has NO row here do you say plainly that day isn't built yet — never improvise one. (Not every classroom day gets a file: only the ones that gather the owner's information. Build days run through the teams' own summons.) When the classroom renumbers, this table changes — the files don't.
 
 Two filename shapes exist on purpose: a page file (`day-01-4-...`) when one specific page carries the choreography, a whole-day file (`day-03-...`) when the day's pages share one process. The routing table above is the truth either way.
