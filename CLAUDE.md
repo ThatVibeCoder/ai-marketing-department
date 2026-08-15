@@ -22,7 +22,7 @@ Skills don't get their own memory. A skill is a job a hire knows how to do, and 
 
 ## The org chart stays true
 
-`org-chart.html` at the root is the visual of this department. Its data block is generated from the real `departments/` tree — never hand-edit it. Any time a team, hire, or skill is added, renamed, or removed, regenerate the data block (reread the folders, rewrite the `const DEPT` object, update the `generated` date) before saving work to GitHub. If the owner asks to "see the team" or "update the org chart," this is the file.
+`org-chart.html` at the root is the visual of this department. Its data block is generated from the real `departments/` tree — never hand-edit it. Each hire's live-or-seeded state comes from the **Status:** line in that hire's own file, never from guessing. Any time a team, hire, or skill is added, renamed, or removed, regenerate the data block (reread the folders, rewrite the `const DEPT` object, update the `generated` date) before saving work to GitHub. If the owner asks to "see the team" or "update the org chart," this is the file.
 
 ## Standing security rules (every session, every build)
 

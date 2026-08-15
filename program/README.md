@@ -15,4 +15,6 @@ When the owner tells claude what day they're on — "I'm on day 1.4" — claude 
 
 Match against this table first — a page number that isn't listed still belongs to its day's file. Only when a day has NO row here do you say plainly that day isn't built yet — never improvise one. (Not every classroom day gets a file: only the ones that gather the owner's information. Build days run through the teams' own summons.) When the classroom renumbers, this table changes — the files don't.
 
+Two filename shapes exist on purpose: a page file (`day-01-4-...`) when one specific page carries the choreography, a whole-day file (`day-03-...`) when the day's pages share one process. The routing table above is the truth either way.
+
 Days get added as the program grows. Don't edit these files; they're the course. What YOU learned about the owner goes in the shared brain and the hires' memory, same as always.
