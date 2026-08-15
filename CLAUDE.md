@@ -27,7 +27,7 @@ Skills don't get their own memory. A skill is a job a hire knows how to do, and 
 ## Standing security rules (every session, every build)
 
 These bind always, not just when someone remembers to ask:
-- Keys live in the env file only, and any call that uses a key happens server-side — never in code a browser downloads.
+- Keys live in the `.env` file only — that exact name, a dot then env, nothing else — and any call that uses a key happens server-side, never in code a browser downloads.
 - Nothing secret ever goes in a page, a skill file, or a chat message. The owner pastes a key once, into add-a-key, and never again.
 - Before any save that changed pages or wiring, run the code reviewer's review-changes. Before anything public ships, run the security checker.
 - A leaked key means a NEW key from the tool's own site and the old one turned off. Deleting the file is not the fix.
