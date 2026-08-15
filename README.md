@@ -19,3 +19,6 @@ Before touching anything, claude reads `business.md` and everything in `brand/` 
 ## One rule
 
 Never edit structure you don't understand yet. The classroom builds it with you, day by day.
+
+## The honest fine print
+This template teaches a way of working — it doesn't run your business for you, and it can't guarantee anything about your accounts, your keys, your platforms, or your results. You own those. The security habits built in here (the env file, the sweeps, the checks) reduce risk; nothing eliminates it. When something involves money, credentials, or other people's data, slow down and check it yourself — that's true with this repo and without it.

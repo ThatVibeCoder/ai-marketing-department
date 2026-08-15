@@ -5,7 +5,7 @@ description: The standing security baseline for everything this department ships
 
 # harden-the-basics
 
-Not paranoia. Just the short list that covers a small business shipping with AI.
+Not paranoia, and not a guarantee — a baseline that reduces risk for a small business shipping with AI. Security is never finished; this is the floor, not the ceiling.
 
 ## The baseline
 1. **Keys live in the env file, and the calls that use them happen server-side.** An env var that a page still references client-side is exposed anyway — the key stays on the server and so does the call.
