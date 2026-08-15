@@ -17,7 +17,7 @@ Members also arrive with GOALS instead of day numbers. Match those on meaning:
 | The owner wants... | Run this file |
 |---|---|
 | to talk in their business, get set up, "where do I start" | day-01-4-brain-dump.md |
-| to know who their best customers are, who to target, who buys | day-03-lock-your-icp.md |
+| to know who their best/ideal customers are, who to target, who buys from them | day-03-lock-your-icp.md — this means DEFINING who they serve; ranking existing customers by value is the sales team's crm-agent, and it needs the ICP first anyway |
 | to know what to post, how much to sell vs give | day-03-3-everyone-trap.md |
 | claude to sound like them, "that doesn't sound like me" | day-05-your-voice.md |
 | to stand out, what makes them different | day-06-contrarian-take.md |
