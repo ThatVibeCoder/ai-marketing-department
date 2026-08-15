@@ -11,7 +11,7 @@ Reports for working live in knowledge/ as markdown. This skill makes the SHAREAB
 1. Read the source report, plus brand/colors.md and brand/typography.md — the document wears the brand or it doesn't ship.
 2. Build ONE self-contained HTML file next to the source: cover line (business name, report name, date), the report's sections cleanly typeset, the one-recommendation section visually first-class. Ink on paper, one accent moment, the brand's two fonts, generous space. No dashboards cosplay — it's a document.
 3. Open it for the owner. Saving as PDF is the browser's print button; say that plainly.
-4. If the owner uses the Marketing HQ in Notion, offer to note it in their Documents section — the repo file stays the record.
+4. Offer the destinations the owner actually uses, one question: save a copy to their Google Drive (wired on Day 8 — the default), and/or note it in their Marketing HQ Documents section in Notion if they use it. The repo file stays the record either way.
 
 ## Rules
 - Never restyle the FINDINGS — content is frozen at generation; this skill only dresses it.
