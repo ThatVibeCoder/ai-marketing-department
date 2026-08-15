@@ -23,7 +23,7 @@ Replace the stub with:
 Keep the Day 1 raw material section underneath — the ore stays with the metal.
 
 ## The ending, always
-Read the take back and watch their face — if they don't feel slightly exposed, it's probably not contrarian enough yet, say so honestly. Then save to GitHub (github agent's save-work skill).
+Read the take back and watch their face — if they don't feel slightly exposed, it's probably not contrarian enough yet, say so honestly. If the take genuinely isn't landing today, don't force one: file the best material so far under Raw material, add "the contrarian take" to business.md's Still to answer list (same mechanic as Day 1), and move on — a forced take is worse than a pending one. Then save to GitHub (github agent's save-work skill).
 
 ## Done when
 The take would make a competitor push back, the proof behind it is real, the file carries where it shows up, and it's saved.

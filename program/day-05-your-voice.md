@@ -25,7 +25,7 @@ Write three test sentences in the derived voice — a post opener, a reply to a 
 Replace the stub: the sound in one line, the rules, the banned list, and the standing self-check ("read it aloud — stumble means rewrite"). Note at the bottom: every future correction the owner makes about sounding wrong updates THIS file, not just the draft that missed.
 
 ## The ending, always
-Read the one-line sound back. Save to GitHub (github agent's save-work skill). From this day forward, every writing hire reads this file first — which means from today, corrections compound instead of repeating.
+Read the one-line sound back. If samples were too thin to derive real rules, write the rules you COULD derive, add "more voice samples" to business.md's Still to answer list (same mechanic as Day 1), and note in voice.md which rules are provisional. Save to GitHub (github agent's save-work skill). From this day forward, every writing hire reads this file first — which means from today, corrections compound instead of repeating.
 
 ## Done when
 `brand/voice.md` holds rules a stranger could follow and produce something that sounds like the owner, the test sentences passed their judgment, and it's saved.
