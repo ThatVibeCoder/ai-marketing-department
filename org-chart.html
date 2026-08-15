@@ -130,7 +130,8 @@ const DEPT = {
         {name:"Keys Agent", desc:"Keys in the env file, never leave your machine.", tools:["add-a-key"], live:true},
         {name:"API Manager", desc:"Owns the doors: which tools are wired, and how.", tools:["wire-a-tool","pick-the-door","connection-check"], live:true},
         {name:"Test Agent", desc:"The stranger test, before it ships.", tools:["pre-ship-check"], live:true},
-        {name:"Security Checker", desc:"Sweeps for leaks before they cost you.", tools:["security-sweep"], live:true},
+        {name:"Code Reviewer", desc:"Reads the changes before they save. Second pair of eyes.", tools:["review-changes"], live:true},
+        {name:"Security Checker", desc:"Sweeps for leaks, holds the baseline.", tools:["security-sweep","harden-the-basics"], live:true},
         {name:"Payments Agent", desc:"For the day you take money. Drop.", tools:["drop pending"], live:false} ] }
     ] }
   ]

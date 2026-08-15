@@ -24,6 +24,14 @@ Skills don't get their own memory. A skill is a job a hire knows how to do, and 
 
 `org-chart.html` at the root is the visual of this department. Its data block is generated from the real `departments/` tree — never hand-edit it. Any time a team, hire, or skill is added, renamed, or removed, regenerate the data block (reread the folders, rewrite the `const DEPT` object, update the `generated` date) before saving work to GitHub. If the owner asks to "see the team" or "update the org chart," this is the file.
 
+## Standing security rules (every session, every build)
+
+These bind always, not just when someone remembers to ask:
+- Keys live in the env file only, and any call that uses a key happens server-side — never in code a browser downloads.
+- Nothing secret ever goes in a page, a skill file, or a chat message. The owner pastes a key once, into add-a-key, and never again.
+- Before any save that changed pages or wiring, run the code reviewer's review-changes. Before anything public ships, run the security checker.
+- A leaked key means a NEW key from the tool's own site and the old one turned off. Deleting the file is not the fix.
+
 ## Summoning a team
 
 When the owner says "summon my [team]" for a job, read that team's `team.md` first — pre-built teams carry Summon sections that name the order hires run in. Follow the choreography, planner first when one exists, and report at each hire's handoff in plain words.

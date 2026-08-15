@@ -14,7 +14,7 @@ Say that, and claude runs this order:
 
 ## Summon: "ship my landing page" (Day 10)
 1. **Planner** turns the website team's build into a one-page ship plan. You say go.
-2. **GitHub Agent** saves the page work with history you can undo to.
+2. **Code Reviewer** reads the changes, then the **GitHub Agent** saves them with history you can undo to.
 3. **Vercel Agent** puts it on the live internet and hands you the URL.
 4. **Test Agent** clicks what a stranger would click and reports what broke.
 5. **Security Checker** sweeps for anything leaking (keys, form endpoints) before you share the link anywhere.

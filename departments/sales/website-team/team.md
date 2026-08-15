@@ -9,7 +9,7 @@ Say that, and claude runs this order:
 1. **Page Builder** runs build-a-page — but it STOPS first if brand/offer.md, colors.md, or typography.md are empty, because a page without them is a guess. Filling those is part of Day 10, not a blocker.
 2. **Page Builder** runs page-copy for the words and style-the-page for the look.
 3. **Traffic Agent** runs seo-foundations and ai-visibility before the page ships, not after — retrofitted findability never gets done.
-4. Hand off to Engineering: "ship my landing page" (the dev team's summon takes it from here — save, ship, test, security sweep).
+4. Hand off to Engineering: "ship my landing page" (the dev team's summon takes it from here — review, save, ship, test, security sweep). If Day 8 never ran, "set up my code base" comes first — the ship needs the wiring.
 
 ## Memory
 Team-wide habits land here once more than one hire shares them.
