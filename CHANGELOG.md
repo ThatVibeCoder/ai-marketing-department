@@ -18,7 +18,7 @@ The `VERSION` file at the root holds one number: the generation your repo was cl
 - Three departments (Marketing, Sales, IT / Systems) under `departments/`, 8 teams, 27 hires, each hire a folder with a job description and its own `skills/`.
 - The skills you run yourself, in `.claude/skills/`: brain-dump-your-business (start here, it fills `business.md` and everything else builds on it), company-brain-dump, run-my-marketing-checkup, audit-my-site, ship-my-landing-page, set-up-my-code-base, make-this-a-pdf. You never memorize their names, you say what you want and claude picks.
 - The lessons themselves live in the classroom, not in here. The classroom teaches the why on video, and points you at the skill that does the work.
-- The update system itself: this file and `VERSION`, how you see what shipped after today.
+- The update system itself: this file and `VERSION` to see what has shipped since your clone, and the github agent's add-from-template skill (`departments/it-systems/dev-team/github-agent/skills/add-from-template/SKILL.md`) to fetch one piece when you want it.
 - `knowledge/` and `routines/`, empty and correct for now, they fill in as your department grows.
 - `org-chart.html` at the root, the live visual of your team, generated from the real `departments/` tree.
 - The security rules in `CLAUDE.md`: keys live in `.env` only, nothing secret in a page or a skill file, a code review before any save that touches pages or wiring, a security check before anything public ships.

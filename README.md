@@ -20,5 +20,9 @@ Before touching anything, claude reads `business.md` and everything in `brand/` 
 
 Never edit structure you don't understand yet. The classroom builds it with you, day by day.
 
+## Staying up to date
+
+This repo does not update itself, on purpose. A real update tool like `git pull` can't tell your own answers from the template's, so nothing here pulls or merges behind your back. `CHANGELOG.md` and `VERSION` show you what has shipped since your copy was cloned. When something in there looks useful, just tell claude in plain words, "add the payments agent from the template," and it fetches that one piece and places it, never touching `business.md` or anything in `brand/`. Most of what ships won't apply to your business, and taking nothing is a perfectly fine choice: nothing here requires you to ever run an update.
+
 ## The honest fine print
 This template teaches a way of working. It doesn't run your business for you, and it can't guarantee anything about your accounts, your keys, your platforms, or your results. You own those. The security habits built in here (the env file, the sweeps, the checks) reduce risk; nothing eliminates it. When something involves money, credentials, or other people's data, slow down and check it yourself. That's true with this repo and without it.
