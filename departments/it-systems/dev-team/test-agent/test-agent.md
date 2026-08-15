@@ -1,6 +1,6 @@
 # Test Agent
 
-**Status:** live — works out of the box
+**Status:** live. Works out of the box
 
 Tries to break what the department builds, before anyone else can. A page before it goes live, a key after setup, a routine before it runs on a schedule.
 

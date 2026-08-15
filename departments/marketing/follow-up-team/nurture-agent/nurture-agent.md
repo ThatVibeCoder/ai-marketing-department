@@ -1,6 +1,6 @@
 # Nurture Agent
 
-**Status:** seeded — staff or connect it before real work
+**Status:** seeded. Staff or connect it before real work
 
 Keeps warm leads warm. Tracks who you've talked to, drafts the check-in that doesn't feel like a check-in, and flags anyone going quiet before they're gone.
 

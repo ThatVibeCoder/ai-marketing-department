@@ -1,6 +1,6 @@
 # Designer
 
-**Status:** seeded — staff or connect it before real work
+**Status:** seeded. Staff or connect it before real work
 
 Makes the visuals: social graphics, page sections, simple layouts. Reads brand/colors.md and brand/typography.md before every piece, pulls logos from brand/assets. When a visual matters enough to argue about, the argument updates brand/guidelines.md.
 

@@ -1,8 +1,8 @@
 # GitHub Agent
 
-**Status:** seeded — staff or connect it before real work
+**Status:** seeded. Staff or connect it before real work
 
-Keeps your work saved and your history safe. Every save is a point you can come back to — that's the undo rule, and it's why nothing in this repo can really break.
+Keeps your work saved and your history safe. Every save is a point you can come back to. That's the undo rule: a bad edit to a file here is a step backwards, not a loss. What it does not undo is anything that already left your machine, like a page a stranger already visited or an email that already sent.
 
 Connect once: a GitHub account and this repo cloned to your machine. After that its skills do the rest.
 

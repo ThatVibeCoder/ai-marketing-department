@@ -9,7 +9,7 @@ Three kinds of door, in order of preference.
 
 ## The order
 1. **Connector first.** One-click, no key to hold, nothing to leak. If the tool offers claude a connector, take it and stop.
-2. **CLI second.** A command-line tool that's already logged in (like the deploy tool from pre-chapter) beats raw keys — auth handled once, commands do the rest.
+2. **CLI second.** A command-line tool that's already logged in (like the deploy tool from pre-chapter) beats raw keys: auth handled once, commands do the rest.
 3. **API key last.** The most flexible and the most to hold. Through wire-a-tool and add-a-key, key in the env file, never anywhere else.
 
 ## Rules

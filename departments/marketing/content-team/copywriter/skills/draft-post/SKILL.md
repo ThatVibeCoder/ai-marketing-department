@@ -11,11 +11,11 @@ Writes one post. Your voice, one reader, one job.
 
 Before writing a single line, read the shared brain at the top of this repo:
 
-- `business.md` — what you sell and who buys it
-- `brand/icp.md` — the person you're writing to
-- `brand/voice.md` — how you actually sound
-- `brand/contrarian-take.md` — the belief that makes this brand worth following
-- `brand/channels.md` — the funnel split; which job (give / prove / invite) is even in demand this week
+- `business.md`: what you sell and who buys it
+- `brand/icp.md`: the person you're writing to
+- `brand/voice.md`: how you actually sound
+- `brand/contrarian-take.md`: the belief that makes this brand worth following
+- `brand/channels.md`: the funnel split; which job (give / prove / invite) is even in demand this week
 
 If any of those are missing or thin, say so and ask for what's missing instead of guessing. A post written without them is a post about nobody.
 
@@ -30,7 +30,7 @@ Ask one at a time and wait. If the answer to #1 is vague, ask for the specific t
 ## Rules
 
 - **One reader per post.** If it could be for two different kinds of customer, pick one. A post for everybody lands on nobody.
-- **The ask only happens in owned places** — a DM, an email, a call. Never write a public post that tries to close a stranger. If they asked for a closing post on a feed, say why that's the wrong place for it and write the getting-noticed version instead.
+- **The ask only happens in owned places**: a DM, an email, a call. Never write a public post that tries to close a stranger. If they asked for a closing post on a feed, say why that's the wrong place for it and write the getting-noticed version instead.
 - **Specific beats clever.** A real number, a real thing that happened, a real thing somebody said. Cut anything that could have been written by someone who doesn't do this work.
 - **Write it the way they'd say it.** If they'd stumble reading it out loud, it's wrong. Contractions. Short words.
 - No hashtags. No emojis unless `brand/voice.md` says otherwise.

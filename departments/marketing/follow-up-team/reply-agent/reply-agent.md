@@ -1,6 +1,6 @@
 # Reply Agent
 
-**Status:** seeded — staff or connect it before real work
+**Status:** seeded. Staff or connect it before real work
 
 Drafts responses to real messages, comments, and questions in your voice, and saves them for your review. It never sends, you send.
 

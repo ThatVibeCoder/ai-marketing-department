@@ -1,4 +1,4 @@
-# Platform Specialists — the growth pattern
+# Platform Specialists: the growth pattern
 
 Once brand/channels.md is filled, your social manager grows one specialist per platform you actually run, under this team: a folder named after the platform, holding what works there, its formats, its rhythms, its rules.
 

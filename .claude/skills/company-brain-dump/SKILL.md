@@ -31,13 +31,13 @@ This is the routing map. Match what they said to the file, then write it in that
 
 | What they just told you | Where it goes | The shape it takes there |
 |---|---|---|
-| A customer story, who buys, who they wish bought | `brand/icp.md` | Under that file's existing headings. Word for word customer lines go in the In their words block. |
+| A customer story, who buys, who they wish bought | `brand/icp.md` | Under that file's existing headings. Word for word customer lines go in the In Their Words block. |
 | A phrase they always use, something that sounded wrong, how they actually talk | `brand/voice.md` | A rule that changes how a sentence gets written. "Sounds friendly" is not a rule. "Never two commas in a sentence" is. |
 | Something their industry gets wrong, a belief they hold quietly | `brand/contrarian-take.md` | Their exact phrasing, kept raw. Do not smooth it. The wording is the asset. |
 | What they sell, what it costs, what is included | `brand/offer.md` | One sentence for what it is, then the parts. |
 | A correction, a banned word, a never do that again | `brand/guidelines.md` | One line per rule, dated, in their words. |
 | Where they post, where customers actually come from | `brand/channels.md` | The channel, and an honest share of their real hours. |
-| A competitor name | `business.md` under Who else they could pick | The name and one line on why that customer considered them. |
+| A competitor name | `business.md` under Who Else They Could Pick | The name and one line on why that customer considered them. |
 | Anything about the business itself: hours, capacity, what they hate doing | `business.md` | Under the heading it fits. Make a new one if none fits. |
 | Something you cannot place | `business.md` under Still to answer | An open question, dated, so a later session can pick it up. |
 

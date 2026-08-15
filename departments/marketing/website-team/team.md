@@ -1,15 +1,15 @@
 # Website Team
 
-What this team owns: your pages on the live internet, and the traffic that finds them. Day 10 staffs it, and it's the biggest build of the program — which is exactly why it comes PRE-LOADED with the craft, so your claude already knows how a good page gets made.
+What this team owns: your pages on the live internet, and the traffic that finds them. Day 10 staffs it, and it's the biggest build of the program. That's exactly why it comes PRE-LOADED with the craft, so your claude already knows how a good page gets made.
 
 Two seats, deep skills. The page builder makes the page; the traffic agent gets it found. Payments, products, and motion arrive later as drops.
 
 ## Summon: "build my landing page" (Day 10)
 Say that, and claude runs this order:
-1. **Page Builder** runs build-a-page — but it STOPS first if brand/offer.md, colors.md, or typography.md are empty, because a page without them is a guess. Filling those is part of Day 10, not a blocker.
+1. **Page Builder** runs build-a-page, but it STOPS first if brand/offer.md, colors.md, or typography.md are empty, because a page without them is a guess. Filling those is part of Day 10, not a blocker.
 2. **Page Builder** runs page-copy for the words and style-the-page for the look.
-3. **Traffic Agent** runs seo-foundations and ai-visibility before the page ships, not after — retrofitted findability never gets done.
-4. Hand off to Engineering: "ship my landing page" (the dev team's summon takes it from here — review, save, ship, test, security sweep). If Day 8 never ran, "set up my code base" comes first — the ship needs the wiring.
+3. **Traffic Agent** runs seo-foundations and ai-visibility before the page ships, not after. Retrofitted findability never gets done.
+4. Hand off to Engineering: "ship my landing page" (the dev team's summon takes it from here: review, save, ship, test, security sweep). If Day 8 never ran, "set up my code base" comes first. The ship needs the wiring.
 
 ## Summon: "audit my site"
 The inward-looking sibling of the marketing checkup. Say it once the landing page is live, then quarterly:

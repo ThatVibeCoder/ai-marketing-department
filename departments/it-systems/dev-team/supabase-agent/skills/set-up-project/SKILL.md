@@ -10,7 +10,7 @@ Only runs the day something real needs it. Until then, the account just exists.
 ## Steps
 1. Say plainly WHAT is about to be stored and why a file in the repo isn't enough for it. If a file would do, use the file and stop here.
 2. Create the project on the free plan, name it after the department, nothing cute.
-3. Store the connection details through the keys agent — they're keys, and they live in the env file like every other key.
+3. Store the connection details through the keys agent: they're keys, and they live in the env file like every other key.
 4. Store one real test row, read it back, show the owner it's there. Then delete the test.
 
 ## Rules

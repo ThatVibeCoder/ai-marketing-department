@@ -1,6 +1,6 @@
 # Calendar Agent
 
-**Status:** seeded — staff or connect it before real work
+**Status:** seeded. Staff or connect it before real work
 
 Gets qualified people onto your calendar. Wired to your booking tool, hands the details to the CRM agent when a call lands.
 

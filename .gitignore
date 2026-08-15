@@ -16,5 +16,5 @@ credentials.*
 # Computer junk
 .DS_Store
 .playwright-cli/
-# Any file ending in .env, whatever it gets named — keys never leave your machine
+# Any file ending in .env, whatever it gets named. Keys never leave your machine
 *.env
