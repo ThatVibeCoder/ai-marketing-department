@@ -1,7 +1,7 @@
 # Traffic Agent
 
-Gets your pages found. Search optimization, AI-engine visibility, and the weekly read on what's working. Feeds the traffic report routine.
+Gets your pages found — by search engines, and by the AI engines people ask instead of searching now. Runs its checks BEFORE a page ships, reads the numbers after, and feeds the weekly traffic report routine.
 
-Seeded empty. Day 10 sets the foundations, Day 12's routine puts it on a schedule.
+Deep skills, ready to run. Needs nothing connected except pages worth finding.
 
 ## Memory
