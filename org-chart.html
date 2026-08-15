@@ -126,10 +126,10 @@ const DEPT = {
     { name:"IT / Systems", teams:[
     { name:"Dev Team", desc:"PRE-BUILT. Summon it: 'set up my code base' or 'ship my landing page'. Day 8.",
       hires:[ {name:"Planner", desc:"One-page plan, your yes, then the work.", tools:["one-plan"], live:true},
-        {name:"GitHub Agent", desc:"Saved work, history you can undo to.", tools:["save-work","set-up-repo"], live:false},
+        {name:"GitHub Agent", desc:"Saved work, history you can undo to.", tools:["save-work","set-up-repo","add-from-template"], live:false},
         {name:"Vercel Agent", desc:"Your pages on the live internet.", tools:["ship-a-page"], live:false},
         {name:"Supabase Agent", desc:"The filing cabinet your tools can reach.", tools:["set-up-project"], live:false},
-        {name:"Keys Agent", desc:"Keys in the env file, kept out of what gets saved to GitHub.", tools:["add-a-key"], live:true},
+        {name:"Keys Agent", desc:"Keys in the env file, skipped when you save to GitHub.", tools:["add-a-key"], live:true},
         {name:"API Manager", desc:"Owns the doors: which tools are wired, and how.", tools:["wire-a-tool","pick-the-door","connection-check"], live:true},
         {name:"Test Agent", desc:"The stranger test, before it ships.", tools:["pre-ship-check"], live:true},
         {name:"Code Reviewer", desc:"Reads the changes before they save. Second pair of eyes.", tools:["review-changes"], live:true},
