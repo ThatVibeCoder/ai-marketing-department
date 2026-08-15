@@ -1,6 +1,6 @@
 # Typography
 
-Day 10 fills this. Your fonts, so pages and graphics stop guessing.
+This gets filled before your first page gets built, worked out with claude when you get there. Your fonts, so pages and graphics stop guessing.
 
 How it gets filled: if you have a site, claude reads the real fonts from it. If you don't, you pick two with claude: one with personality for headlines, one plain and readable for everything else.
 

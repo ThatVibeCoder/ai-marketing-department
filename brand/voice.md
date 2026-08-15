@@ -1,6 +1,6 @@
 # Voice
 
-Day 5 builds this from your real writing and how you actually talk: tell claude "I'm on day 5" and it runs the process. Not a brand adjective list, your actual sentences.
+The build-your-voice skill builds this from your real writing and how you actually talk: talk to claude about wanting your content to sound like you, and it runs the process. Not a brand adjective list, your actual sentences.
 
 Until then, this file stays empty below the shape. Claude doesn't have a voice to write in yet, and guessing one would be worse than waiting.
 

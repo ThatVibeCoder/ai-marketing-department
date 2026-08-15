@@ -1,8 +1,8 @@
 # Business
 
-Day 1's brain dump lands here. Don't fill this by hand, talk it in.
+The brain-dump-your-business skill fills this in. Don't fill it by hand, talk it in.
 
-Open claude in this folder and let it interview you: what you sell, who buys it, what makes you different. Claude writes what you say into this file. That's the whole job on Day 1.
+Open claude in this folder and talk about your business in your own words: what you sell, who buys it, what makes you different. Claude matches that to the brain-dump-your-business skill and writes what you say into this file. That's the whole job.
 
 ## What You Sell
 What you sell, and who actually buys it.

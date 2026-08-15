@@ -1,6 +1,6 @@
 # Offer
 
-Day 10 locks this in. What you actually sell, in one sentence, and the headline that matches. Both get written with claude from your ICP and your contrarian take, then saved here before you build the page.
+This gets locked in before you build your first page, worked out with claude when you get there. What you actually sell, in one sentence, and the headline that matches. Both get written with claude from your ICP and your contrarian take, then saved here.
 
 Until then this stays empty below the shape. An offer written by guessing is worse than waiting.
 

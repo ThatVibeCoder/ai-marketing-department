@@ -1,6 +1,6 @@
 # Contrarian Take
 
-Day 6 finds this: tell claude "I'm on day 6" and it interviews the take out of you. The thing you believe about your industry that most people in it get wrong. It's the spine of your content and the reason anyone remembers you instead of the category wallpaper.
+The find-your-contrarian-take skill finds this: talk to claude about what makes you different, in your own words, and it interviews the take out of you. The thing you believe about your industry that most people in it get wrong. It's the spine of your content and the reason anyone remembers you instead of the category wallpaper.
 
 Talk it in with claude. If it doesn't make somebody disagree, it isn't contrarian yet.
 
@@ -20,4 +20,4 @@ The strongest argument against the take, and what you say back. Hires get challe
 The surfaces this take should lead: content opens with it, sales conversations lean on it, the landing page headline breathes it.
 
 ## Raw Material From Day 1
-Day 1's brain dump saves your answer to "what does your industry get completely wrong" here, word for word. Day 6 builds the take above FROM this quote, so it stays even after the take is written: the ore stays with the metal.
+The brain-dump-your-business skill saves your answer to "what does your industry get completely wrong" here, word for word. The find-your-contrarian-take skill builds the take above FROM this quote, so it stays even after the take is written: the ore stays with the metal.

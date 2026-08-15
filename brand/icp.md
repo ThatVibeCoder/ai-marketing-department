@@ -1,6 +1,6 @@
 # ICP
 
-Day 3 fills this in: tell claude "I'm on day 3" and it runs the interview that replaces this whole file with your answers. Right now it's just the shape.
+The lock-your-icp skill fills this in: talk to claude about who you sell to, and it runs the interview that replaces this whole file with your answers. Right now it's just the shape.
 
 ## Who
 The actual person you sell to. Not a category, a real person you could picture.

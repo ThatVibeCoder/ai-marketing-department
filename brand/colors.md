@@ -1,6 +1,6 @@
 # Colors
 
-Day 10 fills this, before your first page gets built. Your palette, written down so every visual any hire makes uses the same few colors on purpose.
+This gets filled before your first page gets built, worked out with claude when you get there. Your palette, written down so every visual any hire makes uses the same few colors on purpose.
 
 How it gets filled: if you already have a site or a logo, claude pulls the real colors from it. If you don't, you pick with claude: one ink for text, one paper for backgrounds, ONE accent that says your brand, and that's enough to start.
 
