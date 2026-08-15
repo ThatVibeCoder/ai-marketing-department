@@ -32,9 +32,9 @@ These bind always, not just when someone remembers to ask:
 - Before any save that changed pages or wiring, run the code reviewer's review-changes. Before anything public ships, run the security checker.
 - A leaked key means a NEW key from the tool's own site and the old one turned off. Deleting the file is not the fix.
 
-## The program days
+## The classroom and the skills
 
-When the owner names a program day ("I'm on day 1.4"), or describes a GOAL one of the days serves (the routing table in `program/README.md` maps both), read that day's file in `program/` and run it exactly: the questions, the order, the filing map, the ending. The Skool classroom teaches the why; this repo carries the how. If no file exists for the day they name, say so plainly instead of improvising.
+The Skool classroom teaches the lessons, on video, in the owner's voice. This repo carries the skills that do the work, filed under `.claude/skills/`, one skill per job, never per lesson number. When the owner names a lesson or describes a goal, match it to the right skill by what it means, not by hunting for a number that could change the next time the classroom does.
 
 ## Summoning a team
 

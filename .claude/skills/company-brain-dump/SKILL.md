@@ -15,7 +15,7 @@ Read `business.md` and every file in `brand/`. Never ask for something the files
 
 Open with what you already have so they correct you instead of repeating themselves. "Your file says you sell bookkeeping to local trades and a client is worth about three thousand a year. What is new since then?"
 
-If those files are still stubs, say so plainly and offer the taught version instead: `program/day-01-4-brain-dump.md` runs the full Day 1 interview in order. This skill is for topping up a brain that already exists. Day 1 is for building one.
+If those files are still stubs, say so plainly and offer the brain-dump-your-business skill instead: it runs the full founding interview in order. This skill is for topping up a brain that already exists. Brain-dump-your-business is for building one.
 
 ## How to run it
 

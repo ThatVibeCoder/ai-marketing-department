@@ -1,8 +1,11 @@
-# Day 1.4 - Brain-Dump Your Business
+---
+name: brain-dump-your-business
+description: Interview the owner about their business, one question at a time, then write business.md from their answers. This is the founding conversation every other hire and skill builds on. Use when they want to get set up, talk through their business from scratch, don't know where to start, or say "brain dump my business."
+---
 
-**Runs when the owner says:** "I'm on day 1.4", "brain dump my business", or anything that means the Day 1 interview.
+# Brain-Dump Your Business
 
-**The job:** interview the owner about their business, out loud, one question at a time, then turn what they said into the shared brain. This is the single most important conversation in the whole program: every hire they ever staff reads what gets written today.
+Interview the owner about their business, out loud, one question at a time, then turn what they said into the shared brain. This is the single most important conversation in the whole program: every hire they ever staff reads what gets written today.
 
 ## How to run the interview
 - ONE question at a time. Ask, then wait. Never dump the list.
@@ -34,7 +37,7 @@ Replace the whole stub with their answers under nine headings, mapped to the que
 - **Still to answer**: thin or skipped answers, filed here, not asked in the moment (see below).
 Their own words, cleaned but never corporate. Kill every trace of the stub text.
 
-Question 9 doesn't go in business.md. It gets saved word for word into `brand/contrarian-take.md` under "## Raw Material From Day 1": Day 6 builds the contrarian take from this exact quote, so keep their exact phrasing.
+Question 9 doesn't go in business.md. It gets saved word for word into `brand/contrarian-take.md` under "## Raw Material From Day 1": the find-your-contrarian-take skill builds the contrarian take from this exact quote, so keep their exact phrasing.
 
 Anything about clients or customer details follows the same privacy rules as everywhere else: facts about their business yes, other people's private information no.
 
@@ -47,8 +50,8 @@ Then, in ANY later session that touches the business file, ask ONE open question
 
 ## The ending, always
 1. Read back the three most important things you heard, in one line each. Let them correct you.
-2. Set their business name in `org-chart.html`'s OWNER line (the one line marked yours to edit, never touch the generated data block below it), then open the chart and tell them: that's your company now, teams waiting to be staffed. Have them take a screenshot; they'll want the before when day 30 comes.
-3. Save the work to GitHub: run the github agent's save-work skill (`departments/it-systems/dev-team/github-agent/skills/save-work/`). Their business is now somewhere safer than one laptop.
+2. Set their business name in `org-chart.html`'s OWNER line (the one line marked yours to edit, never touch the generated data block below it), then open the chart and tell them: that's your company now, teams waiting to be staffed. Have them take a screenshot for the before-and-after later.
+3. Save the work to GitHub: run the github agent's save-work skill at `departments/it-systems/dev-team/github-agent/skills/save-work/`. Their business is now somewhere safer than one laptop.
 
 ## Done when
 `business.md` reads like a real business talked in by a real person, no stub text survives, the contrarian raw material is filed, the Still to answer heading exists (even if empty), the org chart shows their name, and the work is saved.
