@@ -17,7 +17,7 @@ If offer.md is empty, STOP and lock the offer first. A page built before the off
 
 ## The shape of a page that works
 1. **The top screen earns everything.** Headline from offer.md, one line saying who this is for (the right stranger should think "that's me" in five seconds), and the one action button. Most visitors never scroll — the top screen has to work alone.
-2. **One proof, big.** Your single most impressive true thing — a result, a number, a real quote. One boulder beats a wall of pebbles.
+2. **One proof, big.** Your single most impressive true thing — a result, a number, a real quote. One boulder beats a wall of pebbles. And if the one proof isn't specific, credible, and impossible to wave away — ship with NONE and say so, never stack three weak ones.
 3. **What they get,** in plain words, three to five items, no jargon surviving.
 4. **The action again** at the bottom for the ones who scrolled.
 5. **The form asks for as little as possible.** Every extra field costs real people. Name and email is usually enough — answers route to your inbox (that's your CRM until you outgrow it).

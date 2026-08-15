@@ -12,18 +12,20 @@
 
 ## The questions, in order
 1. What do you sell, and who actually buys it?
-2. What's one customer worth to you, roughly?
-3. Where do customers come from right now?
+2. What does a customer pay you the first time? Do they come back, and how many times? And how many more customers could you actually take on this month before you'd be underwater?
+3. Walk me through your last three customers, one at a time — how did each one actually first hear of you?
 4. What does your week actually look like — where do the hours really go?
 5. What do you hate doing?
-6. What's already written down somewhere, and where does it live?
-7. Who else could your customers go to instead of you? Name names.
-8. What do most people in your industry get completely wrong?
+6. What marketing have you already tried that didn't work — and what would you flat-out refuse to do, no matter how well it works for other people?
+7. What's already written down somewhere, and where does it live?
+8. Who else could your customers go to instead of you? Name names.
+9. What do most people in your industry get completely wrong?
 
 ## Where the answers go
-- Questions 1-6 become `business.md` — written in the owner's own words, cleaned but not corporate. Kill every trace of the stub text.
-- Question 7's names go in `business.md` under a heading like "Who else they could pick" — the research team's target list starts here.
-- Question 8 gets saved word-for-word into `brand/contrarian-take.md` under "## Raw material from Day 1" — Day 6 builds the contrarian take FROM this quote, so keep their exact phrasing.
+- Questions 1-5 and 7 become `business.md` — written in the owner's own words, cleaned but not corporate. Kill every trace of the stub text.
+- Question 6 goes in `business.md` under "## Won't do / already tried" — every planning skill reads it before proposing a channel; a plan the owner silently abandons is worse than no plan.
+- Question 8's names go in `business.md` under a heading like "Who else they could pick" — the research team's target list starts here.
+- Question 9 gets saved word-for-word into `brand/contrarian-take.md` under "## Raw material from Day 1" — Day 6 builds the contrarian take FROM this quote, so keep their exact phrasing.
 - Anything about clients or customer details follows the same privacy rules as everywhere else: facts about their business yes, other people's private information no.
 
 ## If a question gets skipped or the answer is thin

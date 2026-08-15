@@ -12,6 +12,9 @@ Most of any cold audience — 80 to 90 percent — doesn't know yet that they ne
 - **Middle of funnel (MOFU): people who raised a hand.** They joined the list, the community, followed for real. The job is trust — answering the doubt standing between curiosity and action. This happens in owned channels, not the open feed.
 - **Bottom of funnel (BOFU): people who are ready.** The ask itself — an offer, a call, a checkout. This lives ONLY in owned, permissioned places: email, DMs, a call. **Never on the open feed.** A public post that tries to close strangers is the trap in its purest form.
 
+## First, one question that changes the split
+"When someone needs what you sell, do they already KNOW they need it — or do you have to convince them there's a problem at all?" Already know → lean 5 give / 3 prove / 2 invite. Have to convince → lean 8 / 2 / 0, with invitations living in owned channels only. Unsure → the default below.
+
 ## The starting split (out of every 10 public pieces)
 - **~7 ask for nothing** — useful, shareable, or human. Their whole job is reach and recognition.
 - **~2 teach with proof** — show something real working, a receipt, a lesson earned.
@@ -19,7 +22,7 @@ Most of any cold audience — 80 to 90 percent — doesn't know yet that they ne
 Two rules ride the split: invitation posts never run back-to-back, and anything that could sit on a coupon never ships to strangers.
 
 ## The interview (short one — this day is mostly teaching)
-1. "Looking at your last stretch of marketing, honestly: what percent was asking for something?" (Most owners discover they were either all-ask or all-silence.)
+1. "Open your last ten posts and read me the last line of each." (The last lines tell the truth about the mix — most owners discover they were either all-ask or all-silence.)
 2. "Where would a ready buyer actually DO business with you — what's your owned channel?" (If the answer is "nowhere yet," that's a finding, not a failure — the program builds it.)
 3. "What's the one next step a warm stranger could take with you today?" — that's what the ~1 invitation piece points at.
 

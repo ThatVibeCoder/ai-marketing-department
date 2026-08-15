@@ -12,13 +12,17 @@ Read `brand/contrarian-take.md` — Day 1 filed their raw quote under "Raw mater
 2. **What do customers believe when they arrive that you have to talk them out of?** That belief came from somewhere — usually from your competitors' marketing.
 3. **What do you do differently that people doubt until they see it work?** The thing clients pushed back on, then thanked you for.
 4. **If the whole industry had to listen to you for thirty seconds, what would you tell them to STOP doing?**
-5. **The test, asked honestly:** would a competitor disagree with this out loud? If everyone in the industry would nod along, it's a platitude, not a take — dig back into 2 and 3 for the version someone would actually argue with.
+5. **If someone fully believed this, what would they have to go do next — and does that road lead to you?** A take that doesn't imply what you sell is a hot take, not positioning.
+6. **Who does believing this cost you?** Name the customer you'd lose — a take that costs nothing convinces no one.
+7. **What's the strongest argument AGAINST you — and what do you say back?**
+8. **The test, asked honestly:** would a competitor disagree with this out loud? If everyone in the industry would nod along, it's a platitude, not a take — dig back into 2 and 3 for the version someone would actually argue with.
 
 ## Rewrite brand/contrarian-take.md
 Replace the stub with:
 - **The take** — one or two sentences, in their words, sharp enough to disagree with.
 - **Why the common way fails** — the mechanism, not just the claim.
 - **Your proof** — the experience that earned this belief. A take without a scar behind it is just an opinion.
+- **The rebuttal** — the strongest argument against the take, and the answer (Q7). Hires get challenged in comments; this is what they stand on.
 - **Where it shows up** — content opens with it, sales conversations lean on it, the landing page's headline breathes it. Name the surfaces so the other hires know to use it.
 Keep the Day 1 raw material section underneath — the ore stays with the metal.
 

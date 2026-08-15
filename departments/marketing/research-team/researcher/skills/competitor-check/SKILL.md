@@ -24,7 +24,7 @@ Start from the names in business.md under "Who else they could pick" — Day 1 a
 ## What to capture per competitor (one page each, no more)
 - **What they lead with**: their headline, word for word, and who it's clearly for. This is their positioning, stated by them.
 - **What they charge**, if public, and whether they show the price or hide it behind a call.
-- **What their customers say**: top praise, top complaint, and why people LEAVE them — review mining is the gold in this whole job. A competitor's most common complaint is a door standing open for the owner.
+- **What their customers say**: top praise, top complaint, and why people LEAVE them — review mining is the gold in this whole job. A competitor's most common complaint is a door standing open for the owner. Pull their most-repeated complaint VERBATIM into the ICP's In-their-words block — a rival's one-star reviews are the best free objection list the owner will ever get.
 - **One thing they do well** worth studying (proven + adaptable + something we're not doing — all three or it doesn't count).
 - **Our honest angle against them**: one sentence on why someone picks the owner instead. If no honest sentence exists, say that plainly — that finding matters more than a flattering one.
 

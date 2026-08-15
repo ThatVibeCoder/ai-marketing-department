@@ -14,6 +14,8 @@ Before writing a single line, read the shared brain at the top of this repo:
 - `business.md` — what you sell and who buys it
 - `brand/icp.md` — the person you're writing to
 - `brand/voice.md` — how you actually sound
+- `brand/contrarian-take.md` — the belief that makes this brand worth following
+- `brand/channels.md` — the funnel split; which job (give / prove / invite) is even in demand this week
 
 If any of those are missing or thin, say so and ask for what's missing instead of guessing. A post written without them is a post about nobody.
 

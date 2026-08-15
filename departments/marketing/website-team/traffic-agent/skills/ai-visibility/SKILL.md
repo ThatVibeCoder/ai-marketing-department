@@ -9,7 +9,7 @@ People ask ChatGPT and Perplexity instead of searching now. Pages get chosen by 
 
 ## Steps
 1. **Answer first.** Open sections with the direct answer, then explain. AI engines quote the paragraph that answers cleanly; they skip the wind-up.
-2. **Name things plainly.** "We build X for Y" beats clever positioning — an engine can't recommend what it can't parse.
+2. **Name things plainly.** "We build X for Y" beats clever positioning — an engine can't recommend what it can't parse. And use IDENTICAL words for the business, its category, and who it serves on every page — paraphrase across pages reads to an engine like three different companies.
 3. **Keep facts consistent everywhere.** Prices, names, claims must match across every page — contradictions make engines trust none of them.
 4. **Let the AI crawlers in.** The site's robots rules should allow the AI engines' readers, not just Google. Claude knows the current list; ask it to check.
 5. **A short honest FAQ** on the real questions people ask — question-shaped headings are exactly what answer engines lift.

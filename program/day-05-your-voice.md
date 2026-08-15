@@ -8,6 +8,7 @@
 1. Ask for 3 to 5 things they actually wrote where they sound like themselves. Texts to a friend about work beat polished posts. Emails they dashed off beat anything they labored over.
 2. Then one fresh sample: have them Wispr-ramble for two minutes about something in their business they care about. Raw speech is the truest sample there is.
 3. If they have published content, take one piece — but weight it least; published stuff is usually them performing.
+4. Then the negative space: "Send me two or three pieces of marketing from your industry that make you CRINGE." What they'd never sound like defines the banned list better than guessing does.
 
 ## Derive the rules
 Study the samples for patterns, then write 5 to 8 rules, each one concrete enough to follow:
@@ -15,11 +16,12 @@ Study the samples for patterns, then write 5 to 8 rules, each one concrete enoug
 - Words and phrases they actually repeat — those are theirs, keep them.
 - How they open (straight to the point? a story?) and how they close.
 - Punctuation habits, contractions, casual grammar they use on purpose.
-- **The banned list**: words they'd never say, plus the generic marketing words that would instantly not sound like them.
+- **The banned list**: words they'd never say, plus the generic marketing words that would instantly not sound like them — derived from the cringe samples, not invented.
+- **The dial**: where the voice runs looser and tighter — text-to-a-friend for a post, one notch straighter for a sales page. Same voice, two settings.
 Kill any rule that's an adjective in disguise. If it doesn't change the next sentence someone writes, it's not a rule.
 
 ## Prove it before filing
-Write three test sentences in the derived voice — a post opener, a reply to a customer, one line of page copy. They judge out loud. Adjust the rules from their reactions, not from taste.
+Write each of three test sentences TWICE — once in the derived voice, once competent-but-generic, unlabeled — a post opener, a reply to a customer, one line of page copy. They pick which is theirs. If they can't tell, the rules aren't sharp yet. Adjust the rules from their reactions, not from taste.
 
 ## Rewrite brand/voice.md
 Replace the stub: the sound in one line, the rules, the banned list, and the standing self-check ("read it aloud — stumble means rewrite"). Note at the bottom: every future correction the owner makes about sounding wrong updates THIS file, not just the draft that missed.
