@@ -13,6 +13,13 @@ When the owner tells claude what day they're on, "I'm on day 1.4", claude finds 
 | day 5 (any page), my voice | day-05-your-voice.md |
 | day 6 (any page), contrarian take | day-06-contrarian-take.md |
 
+Some days are BUILD days. They have no file here because a team runs them, and the team file holds the steps. Never tell the owner one of these isn't built:
+| The owner says... | Run this instead |
+|---|---|
+| day 8, wire everything up, connect my accounts | the "set up my code base" summon in `departments/it-systems/dev-team/team.md` |
+| day 10, build my landing page | the "build my landing page" summon in `departments/marketing/website-team/team.md`, then "ship my landing page" in `departments/it-systems/dev-team/team.md` |
+| day 13, my marketing checkup | the "run my marketing checkup" summon in `departments/marketing/research-team/team.md` |
+
 Members also arrive with GOALS instead of day numbers. Match those on meaning:
 | The owner wants... | Run this file |
 |---|---|
