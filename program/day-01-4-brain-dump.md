@@ -37,7 +37,7 @@ Then, in ANY later session that touches the business file, ask ONE open question
 ## The ending, always
 1. Read back the three most important things you heard, in one line each. Let them correct you.
 2. Update the org chart with their business name and open `org-chart.html` — tell them: that's your company now, teams waiting to be staffed. Have them take a screenshot; they'll want the before when day 30 comes.
-3. Save the work to GitHub (the save-work skill). Their business is now somewhere safer than one laptop.
+3. Save the work to GitHub — run the github agent's save-work skill (departments/it-systems/dev-team/github-agent/skills/save-work/). Their business is now somewhere safer than one laptop.
 
 ## Done when
 `business.md` reads like a real business talked in by a real person, the contrarian raw material is filed, the still-to-answer list exists (even if empty), the org chart shows their name, and the work is saved.
