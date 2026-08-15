@@ -28,5 +28,8 @@ Replace the whole stub with their answers under seven headings — **Who** (Q1),
 2. Thin or skipped answers go to business.md's "Still to answer" list, same mechanic as Day 1.
 3. Save to GitHub (github agent's save-work skill, departments/it-systems/dev-team/github-agent/skills/save-work/).
 
+## What this unlocks
+The ICP's competitor names are the researcher's target list — offer it plainly: "Want me to run competitor-check on these while they're fresh?" Offer, never just do it; the owner's yes starts work.
+
 ## Done when
 `brand/icp.md` describes one person specifically enough that a stranger could pick them out of a crowd, no stub text survives, and it's saved.

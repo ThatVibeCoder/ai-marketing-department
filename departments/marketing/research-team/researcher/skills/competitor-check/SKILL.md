@@ -38,6 +38,9 @@ Start from the names in business.md under "Who else they could pick" — Day 1 a
 - The contrarian take: if every competitor says the same thing, what they're all missing is raw material for brand/contrarian-take.md.
 - The monthly rhythm: after Day 13, this runs monthly — what changed since last check, three lines per competitor, not a fresh deep-dive every time.
 
+## What to offer next
+If the analysis surfaced a strong honest angle, offer the website team's page-copy pass on the landing page headline. If it surfaced a repeated rival complaint, offer to add it to the ICP's Objections section. One offer, the most relevant one — never a menu.
+
 ## Rules
 - Everything captured must be checkable — a claim about a competitor carries where you saw it.
 - Never copy their words into the owner's copy. Shapes and lessons transfer; sentences don't.
