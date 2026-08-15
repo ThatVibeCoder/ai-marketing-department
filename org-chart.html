@@ -60,6 +60,10 @@
   .empty-note{font-size:12px;color:var(--sub);background:var(--pill);border:1px dashed var(--line);
     border-radius:10px;padding:10px 14px;width:300px;text-align:center;line-height:1.5}
   .spread{display:flex;gap:18px;width:100%;justify-content:center;margin:0}
+  .dept{width:100%;max-width:1200px;border:1.4px dashed var(--line);border-radius:20px;padding:22px 20px 26px;margin-top:30px;background:rgba(255,255,255,.35)}
+  .dept-head{display:flex;align-items:baseline;gap:10px;margin-bottom:18px;justify-content:center}
+  .dept-head h2{font-size:16px;font-weight:800;letter-spacing:.01em}
+  .dept-head span{font-size:12px;color:var(--sub)}
   footer{max-width:1080px;margin:46px auto 0;font-size:12px;color:var(--sub);text-align:center;line-height:1.7}
 </style>
 </head>
@@ -88,54 +92,46 @@ const DEPT = {
     desc: "Reads the standing rules, staffs every seat, runs the whole department.",
     tools: ["CLAUDE.md","memory","routines/"]
   },
-  teams: [
-    { name:"Content Team", desc:"Everything you publish. Grows a specialist per platform you actually run.",
-      hires:[ {name:"Writer", desc:"Drafts posts in the brand voice, saves for review.", tools:["draft-post","voice.md"], live:false},
-        {name:"Hook Writer", desc:"First lines only. The most leveraged sentence gets a specialist.", tools:["voice.md"], live:false},
-        {name:"Repurposer", desc:"One finished piece becomes five, per platform.", tools:["channels.md"], live:false},
-        {name:"Scheduler", desc:"What goes out, where, when. Stages, never publishes.", tools:["calendar"], live:false},
-        {name:"Poster", desc:"Stages content onto platforms for your final send.", tools:["channels.md"], live:false},
-        {name:"Stats Reader", desc:"What worked, what didn't, what to make more of.", tools:["analytics"], live:false} ] },
+  departments: [
+    { name:"Marketing", teams:[
+    { name:"Content Team", desc:"Everything you publish. Four seats to start, specialists grow when earned.",
+      hires:[ {name:"Copywriter", desc:"Writes everything with words in it, in your voice.", tools:["draft-post","voice.md"], live:false},
+        {name:"Social Manager", desc:"One seat for all of social: calendar, staging, the numbers.", tools:["plan-the-week","post-content","read-the-stats"], live:false},
+        {name:"Editor", desc:"The second pass before you see it.", tools:["voice.md"], live:true},
+        {name:"Designer", desc:"Visuals in your colors and fonts.", tools:["colors.md"], live:false} ] },
     { name:"Follow-Up Team", desc:"After somebody already knows you.",
       hires:[ {name:"Reply Agent", desc:"Drafts responses in your voice. You send.", tools:["voice.md"], live:false},
         {name:"Nurture Agent", desc:"Keeps warm leads warm, flags the going-quiet.", tools:["inbox"], live:false} ] },
-    { name:"Website Team", desc:"Your pages, live, and the traffic that finds them. Day 10.",
-      hires:[ {name:"Page Builder", desc:"Builds pages in your colors, fonts, and voice.", tools:["colors.md","typography.md"], live:false},
-        {name:"Traffic Agent", desc:"SEO, AI visibility, the weekly read.", tools:["SEO + AEO"], live:false} ] },
+    { name:"Research Team", desc:"What's happening outside your business. Day 13.",
+      hires:[ {name:"Researcher", desc:"Competitors, swipes, outliers. Feeds the brain.", tools:["competitor-check","collect-swipes","find-outliers"], live:false} ] },
+    { name:"Ads Team", desc:"Paid traffic, when you're ready. Drop.",
+      hires:[ {name:"Growth Lead", desc:"One recommendation instead of five dashboards.", tools:["reports"], live:false},
+        {name:"Ads Manager", desc:"Campaigns staged, your word launches.", tools:["ad platform"], live:false},
+        {name:"Ad Writer", desc:"Variants from your offer and ICP.", tools:["offer.md"], live:false} ] },
+    { name:"Newsletter Team", desc:"The email they actually open. Drop.",
+      hires:[ {name:"Newsletter Writer", desc:"One clear idea per issue, your voice.", tools:["voice.md"], live:false},
+        {name:"List Manager", desc:"Growing or just aging? Keeps you honest.", tools:["the list"], live:false} ] }
+    ] },
+    { name:"Sales", teams:[
     { name:"Sales Team", desc:"Stranger to booked call. Day 11.",
       hires:[ {name:"Assessment Agent", desc:"Asks what tells you a lead fits.", tools:["assessment"], live:false},
         {name:"Calendar Agent", desc:"Qualified people onto your calendar.", tools:["Calendly"], live:false},
         {name:"CRM Agent", desc:"Remembers every lead.", tools:["inbox"], live:false} ] },
-    { name:"Research Team", desc:"What's happening outside your business. Feeds the brain. Day 13.",
-      hires:[ {name:"Competitor Scout", desc:"Reads competitors' pages, reports the moves.", tools:["web key"], live:false},
-        {name:"Swipe Collector", desc:"Saves what works out there, and why.", tools:["knowledge/"], live:false},
-        {name:"Outlier Detector", desc:"Finds posts beating their own channel. The signal.", tools:["knowledge/"], live:false} ] },
+    { name:"Website Team", desc:"Your pages, live, and the traffic that finds them. Day 10.",
+      hires:[ {name:"Page Builder", desc:"Builds pages in your colors, fonts, and voice.", tools:["colors.md","typography.md"], live:false},
+        {name:"Traffic Agent", desc:"SEO, AI visibility, the weekly read.", tools:["SEO + AEO"], live:false} ] }
+    ] },
+    { name:"Engineering", teams:[
     { name:"Dev Team", desc:"PRE-BUILT. Summon it: 'set up my code base' or 'ship my landing page'. Day 8.",
       hires:[ {name:"Planner", desc:"One-page plan, your yes, then the work.", tools:["one-plan"], live:true},
         {name:"GitHub Agent", desc:"Saved work, history you can undo to.", tools:["save-work","set-up-repo"], live:false},
         {name:"Vercel Agent", desc:"Your pages on the live internet.", tools:["ship-a-page"], live:false},
         {name:"Supabase Agent", desc:"The filing cabinet your tools can reach.", tools:["set-up-project"], live:false},
-        {name:"Keys Agent", desc:"Keys live in the env file, never leave your machine.", tools:["add-a-key"], live:true},
+        {name:"Keys Agent", desc:"Keys in the env file, never leave your machine.", tools:["add-a-key","wire-a-tool"], live:true},
         {name:"Test Agent", desc:"The stranger test, before it ships.", tools:["pre-ship-check"], live:true},
         {name:"Security Checker", desc:"Sweeps for leaks before they cost you.", tools:["security-sweep"], live:true},
-        {name:"Payments Agent", desc:"For the day you take money. Drop.", tools:["drop pending"], live:false} ] },
-    { name:"Design Team", desc:"How everything looks. One company, one taste. Drop.",
-      hires:[ {name:"Creative Director", desc:"Rules on visuals before they ship. The taste.", tools:["guidelines.md"], live:false},
-        {name:"Graphic Designer", desc:"Social graphics, page sections, layouts.", tools:["colors.md"], live:false},
-        {name:"Motion Designer", desc:"Movement that serves the message, or gets cut.", tools:["typography.md"], live:false} ] },
-    { name:"Ads Team", desc:"Paid traffic, when you're ready. Drop.",
-      hires:[ {name:"Growth Lead", desc:"One recommendation instead of five dashboards.", tools:["reports"], live:false},
-        {name:"Ads Manager", desc:"Campaigns staged, budgets watched, your word launches.", tools:["ad platform"], live:false},
-        {name:"Ad Writer", desc:"Cold variants from your offer and ICP.", tools:["offer.md"], live:false},
-        {name:"Retargeting Writer", desc:"For people who already saw you.", tools:["icp.md"], live:false},
-        {name:"Funnel Auditor", desc:"Walks your funnel like a stranger, reports the leaks.", tools:["the funnel"], live:false},
-        {name:"Ads Analyst", desc:"What's working, what to stop. Reports only.", tools:["numbers"], live:false} ] },
-    { name:"Newsletter Team", desc:"The email they actually open. Drop.",
-      hires:[ {name:"Newsletter Writer", desc:"One clear idea per issue, your voice.", tools:["voice.md"], live:false},
-        {name:"List Manager", desc:"Growing or just aging? Keeps you honest.", tools:["the list"], live:false} ] },
-    { name:"Editing Team", desc:"Raw video into published pieces. Drop.",
-      hires:[ {name:"Clip Finder", desc:"Marks the moments worth clipping.", tools:["timestamps"], live:false},
-        {name:"Thumbnail Agent", desc:"Concepts in your colors, for your pick.", tools:["colors.md"], live:false} ] }
+        {name:"Payments Agent", desc:"For the day you take money. Drop.", tools:["drop pending"], live:false} ] }
+    ] }
   ]
 };
 // ====== END DATA ======
@@ -169,15 +165,18 @@ let html=`<span class="pill-label">⚡ Every session starts here</span>
   <div class="node-dot"></div><div class="connector"></div>
   ${card(DEPT.chief,"chief","Agent · Orchestrator")}
   <div class="node-dot"></div><div class="connector"></div>
-  <span class="pill-label">🧠 AI connection</span><div class="connector"></div><div class="teams">`;
-for(const t of DEPT.teams){
-  html+=`<div class="team"><div class="team-head"><h2>${t.name}</h2><p>${t.desc}</p></div>
-    <div class="node-dot"></div><div class="connector"></div>`;
-  if(!t.hires.length) html+=`<div class="empty-note">Empty on purpose.<br>Your audit decides who works here.</div>`;
-  else html+=t.hires.map(h=>card(h,"","Agent")+'<div class="connector" style="height:14px"></div>').join("").replace(/<div class="connector" style="height:14px"><\/div>$/,"");
-  html+=`</div>`;
+  <span class="pill-label">🧠 AI connection</span>`;
+for(const d of DEPT.departments){
+  html+=`<div class="dept"><div class="dept-head"><h2>${d.name}</h2><span>${d.teams.length} team${d.teams.length>1?"s":""} · ${d.teams.reduce((a,t)=>a+t.hires.length,0)} seats</span></div><div class="teams">`;
+  for(const t of d.teams){
+    html+=`<div class="team"><div class="team-head"><h2>${t.name}</h2><p>${t.desc}</p></div>
+      <div class="node-dot"></div><div class="connector"></div>`;
+    if(!t.hires.length) html+=`<div class="empty-note">Empty on purpose.<br>Your audit decides who works here.</div>`;
+    else html+=t.hires.map(h=>card(h,"","Agent")+'<div class="connector" style="height:14px"></div>').join("").replace(/<div class="connector" style="height:14px"><\/div>$/,"");
+    html+=`</div>`;
+  }
+  html+=`</div></div>`;
 }
-html+=`</div>`;
 el.innerHTML=html;
 </script>
 </body>
