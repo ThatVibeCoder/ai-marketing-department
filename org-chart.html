@@ -24,10 +24,32 @@
     background:var(--card);border:1px solid var(--border);border-radius:999px;padding:4px 12px}
   .live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--ok)}
   .stamp{font-size:12px;color:var(--sub)}
-  .chart{max-width:1080px;margin:26px auto 0;display:flex;flex-direction:column;align-items:center}
+  .chart{margin:26px auto 0;width:100%;display:flex;justify-content:center;align-items:flex-start;overflow:hidden}
+  .tree{min-width:max-content;flex-shrink:0;display:flex;flex-direction:column;align-items:center}
+  .stack{display:flex;flex-direction:column;align-items:center}
+  .tree ul{display:flex;align-items:flex-start;justify-content:center;padding:0;margin:0;list-style:none}
+  .tree li{display:flex;flex-direction:column;align-items:center;position:relative;padding:26px 13px 0}
+  .tree li::before,.tree li::after{content:"";position:absolute;top:0;right:50%;width:50%;height:26px;border-top:1.6px dashed var(--line)}
+  .tree li::after{right:auto;left:50%;border-left:1.6px dashed var(--line)}
+  .tree li:first-child::before{border-top:none}
+  .tree li:last-child::after{border-top:none}
+  .tree li:only-child::before{display:none}
+  .dept-node{width:260px;background:rgba(255,255,255,.65);border:1.4px dashed var(--line);border-radius:14px;padding:12px 16px;text-align:center}
+  .dept-node h2{font-size:15px;font-weight:800;letter-spacing:.01em}
+  .dept-node span{font-size:12px;color:var(--sub)}
+  .tree .card{width:260px}
+  .tree .team-head{width:260px}
+  .tree .empty-note{width:260px}
 
   .pill-label{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--sub);
     background:var(--card);border:1px solid var(--line);border-radius:10px;padding:5px 12px}
+  .tabs{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:20px auto 0;max-width:1080px}
+  .tab{font-family:inherit;font-size:13px;font-weight:600;padding:7px 16px;border-radius:999px;cursor:pointer;
+    background:var(--card);border:1px solid var(--border);color:var(--sub);
+    box-shadow:0 1px 2px rgba(16,24,40,.05)}
+  .tab:hover{border-color:var(--line);color:var(--ink)}
+  .tab.active{border-color:var(--accent);color:var(--accent);
+    box-shadow:0 1px 2px rgba(59,110,245,.15),0 4px 12px rgba(59,110,245,.10)}
   .connector{width:0;height:26px;border-left:1.6px dashed var(--line);position:relative}
   .connector::after{content:"";position:absolute;left:-4.4px;bottom:-1px;border:4px solid transparent;border-top:6px solid var(--line)}
   .node-dot{width:9px;height:9px;border-radius:50%;background:var(--card);border:1.6px solid var(--line);margin:-5px 0}
@@ -51,19 +73,12 @@
   .state{font-size:10.5px;font-weight:600;letter-spacing:.02em;margin-top:10px;color:var(--ok)}
   .seeded .state{color:#9aa1ab}
 
-  .teams{display:flex;gap:34px;align-items:flex-start;justify-content:center;flex-wrap:wrap;margin-top:0}
-  .team{display:flex;flex-direction:column;align-items:center}
   .team-head{width:300px;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:12px 16px;
     box-shadow:0 1px 2px rgba(16,24,40,.05)}
   .team-head h2{font-size:14px;font-weight:700}
   .team-head p{font-size:12px;color:var(--sub);margin-top:3px;line-height:1.4}
   .empty-note{font-size:12px;color:var(--sub);background:var(--pill);border:1px dashed var(--line);
     border-radius:10px;padding:10px 14px;width:300px;text-align:center;line-height:1.5}
-  .spread{display:flex;gap:18px;width:100%;justify-content:center;margin:0}
-  .dept{width:100%;max-width:1200px;border:1.4px dashed var(--line);border-radius:20px;padding:22px 20px 26px;margin-top:30px;background:rgba(255,255,255,.35)}
-  .dept-head{display:flex;align-items:baseline;gap:10px;margin-bottom:18px;justify-content:center}
-  .dept-head h2{font-size:16px;font-weight:800;letter-spacing:.01em}
-  .dept-head span{font-size:12px;color:var(--sub)}
   footer{max-width:1080px;margin:46px auto 0;font-size:12px;color:var(--sub);text-align:center;line-height:1.7}
 </style>
 </head>
@@ -73,6 +88,7 @@
   <span class="live">Live</span>
   <span class="stamp" id="stamp"></span>
 </header>
+<div class="tabs" id="tabs"></div>
 <div class="chart" id="chart"></div>
 <footer>This chart is generated from the real <b>departments/</b> tree in this repo.<br>
 Changed a team or hire? Tell claude: <b>"update the org chart"</b>. It rereads the folders and rewrites the data below.</footer>
@@ -165,24 +181,55 @@ function card(o,cls,tag){
 const el=document.getElementById("chart");
 document.getElementById("title").textContent=OWNER.business+(OWNER.business==="Your Department"?"":": Your Department");
 document.getElementById("stamp").textContent="generated "+DEPT.generated+" from the live tree";
-let html=`<span class="pill-label">⚡ Every session starts here</span>
-  <div class="connector"></div>${card(DEPT.brain,"brain","Shared Brain")}
-  <div class="node-dot"></div><div class="connector"></div>
-  ${card(DEPT.chief,"chief","Agent · Orchestrator")}
-  <div class="node-dot"></div><div class="connector"></div>
-  <span class="pill-label">🧠 AI connection</span>`;
-for(const d of DEPT.departments){
-  html+=`<div class="dept"><div class="dept-head"><h2>${d.name}</h2><span>${d.teams.length} team${d.teams.length>1?"s":""} · ${d.teams.reduce((a,t)=>a+t.hires.length,0)} seats</span></div><div class="teams">`;
+const hireChain=t=>{
+  if(!t.hires.length) return `<div class="empty-note">Empty on purpose.<br>Your audit decides who works here.</div>`;
+  return t.hires.map(h=>card(h,"","Agent")).join('<div class="connector" style="height:14px"></div>');
+};
+function deptLi(d){
+  let s=`<li><div class="dept-node"><h2>${esc(d.name)}</h2><span>${d.teams.length} team${d.teams.length>1?"s":""} · ${d.teams.reduce((a,t)=>a+t.hires.length,0)} seats</span></div>
+    <div class="connector"></div><ul>`;
   for(const t of d.teams){
-    html+=`<div class="team"><div class="team-head"><h2>${t.name}</h2><p>${t.desc}</p></div>
-      <div class="node-dot"></div><div class="connector"></div>`;
-    if(!t.hires.length) html+=`<div class="empty-note">Empty on purpose.<br>Your audit decides who works here.</div>`;
-    else html+=t.hires.map(h=>card(h,"","Agent")+'<div class="connector" style="height:14px"></div>').join("").replace(/<div class="connector" style="height:14px"><\/div>$/,"");
-    html+=`</div>`;
+    s+=`<li><div class="team-head"><h2>${esc(t.name)}</h2><p>${esc(t.desc)}</p></div>
+      <div class="node-dot"></div><div class="connector" style="height:14px"></div>${hireChain(t)}</li>`;
   }
-  html+=`</div></div>`;
+  return s+`</ul></li>`;
 }
-el.innerHTML=html;
+function render(sel){
+  const depts=sel==="all"?DEPT.departments:DEPT.departments.filter(d=>d.name===sel);
+  let html=`<div class="tree"><div class="stack">
+    <span class="pill-label">Every session starts here</span>
+    <div class="connector"></div>${card(DEPT.brain,"brain","Shared Brain")}
+    <div class="node-dot"></div><div class="connector"></div>
+    ${card(DEPT.chief,"chief","Agent · Orchestrator")}
+    <div class="node-dot"></div>
+    <span class="pill-label">AI connection</span>
+    <div class="connector"></div></div><ul>`;
+  for(const d of depts) html+=deptLi(d);
+  html+=`</ul></div>`;
+  el.innerHTML=html;
+  fit();
+}
+function fit(){
+  const t=el.querySelector(".tree");
+  if(!t) return;
+  el.style.height="";
+  t.style.transform="none";
+  const w=t.offsetWidth,h=t.offsetHeight;
+  const s=Math.min(1,el.clientWidth/w);
+  t.style.transformOrigin="top center";
+  t.style.transform=`scale(${s})`;
+  el.style.height=(h*s)+"px";
+}
+const tabsEl=document.getElementById("tabs");
+tabsEl.innerHTML=[`<button class="tab active" data-sel="all">Everything</button>`]
+  .concat(DEPT.departments.map(d=>`<button class="tab" data-sel="${esc(d.name)}">${esc(d.name)}</button>`)).join("");
+tabsEl.addEventListener("click",e=>{
+  const b=e.target.closest(".tab"); if(!b) return;
+  tabsEl.querySelectorAll(".tab").forEach(x=>x.classList.toggle("active",x===b));
+  render(b.dataset.sel);
+});
+render("all");
+window.addEventListener("resize",fit);
 </script>
 </body>
 </html>
