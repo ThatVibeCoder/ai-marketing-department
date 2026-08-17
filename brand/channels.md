@@ -4,7 +4,7 @@ The set-your-content-mix skill sets your funnel split. Where you actually show u
 
 Until it's filled, hires ask before assuming where anything gets published.
 
-## The Funnel Split (Day 3)
+## The Funnel Split
 Your starting mix out of every 10 public pieces (roughly 7 give / 2 prove / 1 invite, or your version of it), your owned channel where a ready buyer would actually do business with you, and the one next step a warm stranger could take today.
 
 ## Where You Show Up
